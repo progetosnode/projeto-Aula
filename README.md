@@ -1,6 +1,4 @@
-# projeto-Aula
-
-Alarme de incêndio com ESP8266 NodeMCU.
+# Alarme de incêndio com ESP8266 NodeMCU.
 
 Nesse projeto vamos desenvolver um alarme de incêndio utilizando um NodeMCU ESP8266, que após detectar chamas ou gases
 inflamáveis dispara um alarma e envia uma mensagem para o seu celular.
