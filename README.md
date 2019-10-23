@@ -17,3 +17,6 @@ que iram voltar o valor 0 caso não detecte nenhum problema ou 1 se detectar gas
 Também iremos usar um pino para ligar o buzzer, para emitir um alerta caso detecte fogo ou gases, 
 além de enviar uma notificação através do Pushbullet para o nosso celular através de um APP, compatível tanto com Apple
 como Android.
+
+
+![sistema-de-deteccao-e-alarme-de-incendio-03](https://user-images.githubusercontent.com/56637793/67402592-2e701c00-f587-11e9-9d9e-9997a943fe86.jpg)
