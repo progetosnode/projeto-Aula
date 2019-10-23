@@ -13,7 +13,7 @@ Diversos Jumpers.
 
 Ambos os sensores possuem pino analógico e digital,
 no nosso caso iremos conecta-los através do pino digital,
-que iram voltar o valor 0 caso não detecte nenhum problema ou 1 se detectar gases ou chamas.
+que ira retornar o valor 0 caso não detecte nenhum problema ou 1 se detectar gases ou chamas.
 Também iremos usar um pino para ligar o buzzer, para emitir um alerta caso detecte fogo ou gases, 
 além de enviar uma notificação através do Pushbullet para o nosso celular através de um APP, compatível tanto com Apple
 como Android.
