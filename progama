@@ -1,0 +1,25 @@
+*Incompleto*
+
+from machine import Pin
+from machine import ADC
+from time import sleep
+
+buz = Pin (5, Pin.OUT)
+fogo = Pin (4, Pin.IN, Pin.PULL_UP)
+adc = ADC(0) 
+while True:
+  gas = adc.read()
+  
+  if gas > 350:
+ 
+      buz.value(1)
+      print("ligado")
+      sleep(.5)
+      buz.value(0)
+      sleep(.5)
+      print(gas)
+  else:
+      buz.value(0)
+      print("desligado")
+      sleep(.5)
+      print(gas)
