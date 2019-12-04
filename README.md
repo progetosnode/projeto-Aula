@@ -8,7 +8,6 @@ Para realização do trabalho iremos utilizar os seguintes materiais;
    1 Sensor de Gases inflamáveis - MQ-2,
    1 Sensor de Chamas - 760 a 1100 nm,
    1 ESP8266 NodeMCU,
-   1 Protoboard,
 Diversos Jumpers.
 
 Ambos os sensores possuem pino analógico e digital,
