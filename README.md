@@ -7,7 +7,7 @@
  
      Amanda Nardi     RA:0791611040
      Rafael Thiago    RA:0791811043
-
+> <em> Um trabalho para a disciplina de Sistemas Microprocessados e Microcontrolados
 
    # Descrição do projeto:
 Nesse projeto iremos desenvolver um alarme de incêndio utilizando um NodeMCU ESP8266, que após detectar chamas
