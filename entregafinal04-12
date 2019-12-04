@@ -1,10 +1,8 @@
 Trabalho final Microcontroladores
 Data: 04/12/2019
  
-![sistema-de-deteccao-e-alarme-de-incendio-03](https://user-images.githubusercontent.com/56637793/67402592-2e701c00-f587-11e9-9d9e-9997a943fe86.jpg)
 
-
-   # Descrição do projeto:
+    Descrição do projeto:
 Nesse projeto iremos desenvolver um alarme de incêndio utilizando um NodeMCU ESP8266, que após detectar chamas
 ou gases inflamáveis irá disparar um alarma e enviará uma mensagem para o seu celular.
 
