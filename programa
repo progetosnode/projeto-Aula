@@ -21,8 +21,6 @@ ap = network.WLAN(network.AP_IF)
 ap.active(True)
 ap.config(essid='OLOKINHOMEU')
 
-
-
 while True:
   gas = adc.read()
   
