@@ -5,6 +5,8 @@
 ![logoCPS](http://fatecsantoandre.edu.br/images/logo_centro.png)
 ![logoGoverno](http://fatecsantoandre.edu.br/images/logo_sp.png)
  
+     Amanda Nardi     RA:0791611040
+     Rafael Thiago    RA:0791811043
 
 
    # Descrição do projeto:
@@ -26,7 +28,7 @@ além de enviar uma notificação através do Pushbullet para o nosso celular at
 compatível tanto com Apple como Android.
 
    # Sensores utilizados:
-    -MQ-2
+    *MQ-2
    Este Sensor de Gas MQ-2 Inflamável e Fumaça é capaz de detectar concentrações de gases combustíveis e fumaça no ar. 
    É um módulo confiável e simples de usar em seus projetos de automação residencial com Arduino, por exemplo.
 Também é uma ótima opção para acionar um microcontrolador ou relés.
@@ -35,7 +37,7 @@ Se abaixo do nível, fica em estado baixo.
    Para ter uma resolução melhor e medir a variação da concentração dos gases no ar, 
 é possível usar a saída analógica A0 e conectar a um conversor AD, como a presente no Arduino e Raspberry Pi, por exemplo.
 
-    -SENSOR DE FOGO/CHAMAS:
+    *SENSOR DE FOGO/CHAMAS:
    O Sensor de Chama Fogo  pode ser usado para detectar fontes de chama ou outras fontes de calor 
 que possuam tamanho de onda entre 760 a 1100 nm.
 Seu ângulo de detecção pode chegar a 60 graus e no meio de sua placa há um buraco onde se encaixa um parafuso
@@ -46,4 +48,4 @@ Contudo, para ter uma resolução melhor é possível utilizar a saída analógi
 como a presente no Arduino, por exemplo.
 
 
-![sistema-de-deteccao-e-alarme-de-incendio-03](https://user-images.githubusercontent.com/56637793/67402592-2e701c00-f587-11e9-9d9e-9997a943fe86.jpg)
+![sistema-de-deteccao-e-alarme-de-incendio-03](https://uploads.filipeflop.com/2016/11/Alarme-de-inc%C3%AAndio-com-ESP8266-NodeMCU.png)
