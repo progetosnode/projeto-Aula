@@ -1,5 +1,6 @@
-*Incompleto*
 
+import network
+import urequests
 from machine import Pin
 from machine import ADC
 from time import sleep
@@ -7,19 +8,38 @@ from time import sleep
 buz = Pin (5, Pin.OUT)
 fogo = Pin (4, Pin.IN, Pin.PULL_UP)
 adc = ADC(0) 
+
+wlan = network.WLAN(network.STA_IF)
+wlan.active(True)
+wlan.scan()
+wlan.isconnected()
+wlan.connect('OLOKINHOMEU', 'Arduino1no')
+wlan.config('mac')
+wlan.ifconfig()
+
+ap = network.WLAN(network.AP_IF)
+ap.active(True)
+ap.config(essid='OLOKINHOMEU')
+
+
+
 while True:
   gas = adc.read()
   
-  if gas > 350:
- 
-      buz.value(1)
-      print("ligado")
-      sleep(.5)
-      buz.value(0)
-      sleep(.5)
-      print(gas)
+  
+  if(fogo.value() == True or gas > 350):
+    buz.value(1)
+    print("ligado")
+    sleep(.5)
+    buz.value(0)
+    sleep(.5)
+    print("Sensor de Gas:", gas)
+    print("Sensor de Fogo:", fogo.value())
+    
   else:
-      buz.value(0)
-      print("desligado")
-      sleep(.5)
-      print(gas)
+    buz.value(0)
+    print("desligado")
+    sleep(.5)
+    print("Sensor de Gas:", gas)
+    print("Sensor de Fogo:", fogo.value())
+    
